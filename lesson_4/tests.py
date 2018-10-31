@@ -1,6 +1,6 @@
 import unittest
 from module import multiply_numbers, join_strings, age_in_years
-from solution import multiply_numbers, join_strings, age_in_years #Uncomment this line for solution
+#from solution import multiply_numbers, join_strings, age_in_years #Uncomment this line for solution
 
 class TestStringMethods(unittest.TestCase):
 
