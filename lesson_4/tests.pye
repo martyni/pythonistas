@@ -1,0 +1,16 @@
+import unittest
+from module import multiply_numbers, join_strings, find_age_in_years
+
+class TestStringMethods(unittest.TestCase):
+
+    def test_multiply_numbers(self):
+        self.assertEqual(multiply_numbers(3,4),12)
+
+    def test_join_strings(self):
+        self.assertEqual(join_strings("hello ","how are you?"),"hello how are you?")
+
+    def test_find_age_in_years(self):
+        self.assertEqual(find_age_in_years(13,4,1989), 29)
+
+if __name__ == '__main__':
+    unittest.main()
