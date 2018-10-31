@@ -1,0 +1,2 @@
+# pythonistas
+fun python exercises
